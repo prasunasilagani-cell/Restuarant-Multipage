@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <style>
+      .first{
+         background-image: linear-gradient(to right,#4E220F,#8B5E3C,#9D6638);
+    }
+    body{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/051/595/381/small_2x/cozy-restaurant-interior-with-elegant-seating-and-warm-lighting-during-evening-hours-photo.jpeg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }  h1{
+      color: #a8734c;
+      text-align: center;
+    }
+    p{
+        color: #4f2706;
+        padding-left: 15px;
+    }a{
+        text-decoration-line: none;
+        color: #3b1d05;
+        font-size:larger;
+    }   .fourth{
+        background-color: antiquewhite;
+    }
+        label{
+        color:black;
+        font-size: larger;
+    } form{
+        text-align: center;
+    }
+    input[type="radio"]{
+        accent-color: black;
+    }
+    .fifth{text-align: center;}
+    table{
+        border: 2px solid black;
+        background-color: #a8734c80;
+    }
+    td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        color:rgb(255, 228, 196);
+    }
+    th{ border: 1px solid black; color:bisque;}
+  p{ text-align: center;
+color: blanchedalmond;}
+ nav{
+    text-align: center;
+}
+.btn{
+    color: #a8734c;
+    background-color:#4f2706;
+    height: 30px;
+    width: 100px;
+}
+legend{
+    color: #9D6638;
+}
+  </style>
+</head>
+<body>
+     <div class="first">
+        <h1>Brew & Bite 60 Cafe ☕</h1>
+        <p>Where coffee Meets Conversations</p><br>
+        <nav><a href="index.html">Home</a>&nbsp;&nbsp;
+        <a href="Restaurant about.html">About</a>&nbsp;&nbsp;
+        <a href="Reservation.html">Reservation</a>&nbsp;&nbsp;
+        <a href="Menu.html">Menu</a>&nbsp;&nbsp;</nav>
+    </div><hr>
+    <div class="second">
+        <h1>Upcoming Events 🎉</h1><br>
+        <table height="200" width="600" align="center">
+            <tr><td colspan="4">Upcoming Events</td></tr>
+            <tr> <th>Category</th>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Time</th></tr>
+            <tr><td rowspan="2">Music</td>
+            <td>Liv Music Night</td>
+            <td>10 July 2026</td>
+            <td>7 PM</td></tr>
+            <tr><td>Acoustic Evening</td>
+            <td>18 July 2026</td>
+            <td>8 PM</td></tr>
+            <tr><td rowspan="2">Workshops</td>
+            <td>Coffee Workshop</td>
+            <td>15 July 2026</td>
+            <td>5 PM</td></tr>
+            <tr><td>Dessert Festival</td>
+            <td>20 July 2026</td>
+            <td>6 PM</td></tr>
+        </table></div><hr>
+        <div class="third">
+            <h1>Reserve Your Table 🍽️</h1>
+            <p>Fill in the details and reserve your favourite spot.</p>
+        </div>
+        <div class="fourth">
+           <form><feildset>
+            <legend>Reservation Form</legend>
+            <label>Full Name</label><br><br>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <label>Email</label><br><br>
+            <input type="email" placeholder="Enter Email"><br><br>
+            <label>Phone Number</label><br><br>
+            <input type="number" placeholder="Enter mobile number"><br><br>
+            <label>Reservation Date</label><br><br>
+            <input type="date" ><br><br>
+            <label>Reservation Time</label><br><br>
+            <input type="time" ><br><br>
+            <label>Number of Guests</label><br><br>
+            <input type="number" ><br><br>
+            <label>Occasion</label><br><br>
+            <input type="radio" />Birthday<br>
+            <input type="radio" />Anniversary<br>
+            <input type="radio" />Casual Visit<br>
+            <br><br>
+            <label>Food Preference</label><br><br>
+            <input type="checkbox" />Vegetarian<br>
+            <input type="checkbox" /> Non-Vegetarian<br>
+            <input type="checkbox" />Vegan<br>
+            <br><br>
+            <label>City</label><br><br>
+            <input type="text" ><br><br>
+            <label>Instagram Profile</label><br><br>
+            <input type="text" placeholder="Paste profile link" ><br><br>
+            <label>Special Request</label><br><br>
+            <textarea rows="5" columns="15"></textarea><br><br>
+           </feildset></form>
+    </div><hr>
+    <div class="fifth">
+        <h1>Contact Us 📍</h1>
+        <p>Email:hello@brewbite.com<br>
+        Phone: +91 9834567342<br>Address: Hitech city, Hyderabad</p>
+        <P>©️ 2026 Brew & Bite Cafe. All Righhts Reserved.</P>
+    </div>
+</body>
+</html>
